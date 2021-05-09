@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+*{
+    box-sizing: border-box;
+ }
+ 
+ body{
+     margin: 0;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-image:url("https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-sky-blue-gradient-background-download-image_210615.jpg");
+     background-position: center center;
+     color: black;
+ }
+ 
+ h2{
+     font-size: 45px;
+     margin-top: -30px;
+ }
+ 
+ .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .big-text{
+    font-size: 75px;
+    font-family: Prata, monospace ;
+}
+
+ .timer1 {
+     text-align: center;
+     margin-right: 28px;
+   }
+   
+   .timer1 span {
+     font-size: 2rem;
+   }
+ 
